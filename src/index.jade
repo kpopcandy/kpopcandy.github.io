@@ -38,12 +38,12 @@ body
             span.icon-bar
             span.icon-bar
             span.icon-bar
-          a.navbar-brand(href='#')
-            img(src='img/kpopcandy_logo_lukemod.png', id='logo-img')
+          a.navbar-brand(href='/')
+            img(src='img/kpopcandy_logo_horizontal.png', id='logo-img')
         .collapse.navbar-collapse.bs-navbar-collapse
           ul.nav.navbar-nav.navbar-right
             li
-              a.contact(href='mailto:hello@kpopcandy.com?Subject=Contacting%20from%KpopCandy.com') Contact
+              a.contact(href='mailto:hello@kpopcandy.com?Subject=Contacting%20from%20KpopCandy.com') Contact
   .container
     .text-center
       h1 A Sweet New App for K-pop Fans
@@ -53,7 +53,7 @@ body
       .col-md-6.text-center.visible-xs
         img.img-responsive(src="img/s4.png", alt="android phone")
       //- BIGGER SCREENS
-      .col-md-6.text-center.visible-md
+      .col-md-6.text-center.visible-sm.visible-md
         img(src="img/s4.png", alt="android app")     
       //- BIGGEST SCREEN
       .col-md-6.text-center.visible-lg#rotating-item-wrapper
@@ -75,10 +75,18 @@ body
         .description-block
           h2 SEE THE LYRICS
           p.feature-description Understand the song by reading the lyrics in 3 different ways: Korean, alphabetic pronunciation, and English translation.
-        .app-web-links
+        //- MOBILE FIRST
+        .app-web-links.visible-xs.visible-sm
+          .row.text-center
+            a(href="https://play.google.com/store/apps/details?id=com.kpopcandy", target="_blank")
+              img.google-play-button(src="img/google_play.png", alt="android phone")
+            a(href="https://play.google.com/store/apps/details?id=com.kpopcandy", target="_blank")
+              img.web-app-button(src="img/web_player.png", alt="web player")
+        //- BIGGER SCREENS
+        .app-web-links.visible-md.visible-lg
           a(href="https://play.google.com/store/apps/details?id=com.kpopcandy", target="_blank")
             img.google-play-button(src="img/google_play.png", alt="android phone")
-          img.web-app-button(src="img/website.png", alt="web app")
+          img.web-app-button(src="img/web_player.png", alt="web player")
   .footer.text-center
     p © Copyright 2014 Kpop Candy created by Recomio, Inc.
   script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js')
