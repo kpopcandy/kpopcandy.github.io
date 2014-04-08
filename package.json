@@ -1,11 +1,11 @@
 {
-  "name": "babyshopr-landing",
+  "name": "kpop candy",
   "private": true,
   "version": "0.0.1",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Taeho Kim <taeho@recom.io>",
+  "author": "Luke Seo <luke@recom.io>",
   "dependencies": {
   },
   "devDependencies": {

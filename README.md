@@ -1,2 +1,2 @@
-# babyshopr.github.io
-> BabyShopR landing page
+# Kpop Candy
+> Kpop Candy landing page and other web assets

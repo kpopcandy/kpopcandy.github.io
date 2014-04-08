@@ -43,7 +43,7 @@ body
         .collapse.navbar-collapse.bs-navbar-collapse
           ul.nav.navbar-nav.navbar-right
             li
-              a.contact(href='mailto:hello@babyshopr.com?Subject=Contacting%20from%20BabyShopR.com') Contact
+              a.contact(href='mailto:hello@kpopcandy.com?Subject=Contacting%20from%KpopCandy.com') Contact
   .container
     .text-center
       h1 A Sweet New App for K-pop Fans
@@ -53,9 +53,12 @@ body
       .col-md-6.text-center.visible-xs
         img.img-responsive(src="img/s4.png", alt="android phone")
       //- BIGGER SCREENS
-      .col-md-6.text-center.visible-sm.visible-md.visible-lg#rotating-item-wrapper
+      .col-md-6.text-center.visible-md
+        img(src="img/s4.png", alt="android app")     
+      //- BIGGEST SCREEN
+      .col-md-6.text-center.visible-lg#rotating-item-wrapper
         img(src="img/s4.png", alt="android app")
-        img.rotating-item(src="img/rotate1.jpg", alt="android app")
+        //- img.rotating-item(src="img/rotate1.jpg", alt="android app")
         img.rotating-item(src="img/rotate2.jpg", alt="android app")
         img.rotating-item(src="img/rotate3.jpg", alt="android app")
         img.rotating-item(src="img/rotate4.jpg", alt="android app")
@@ -73,7 +76,8 @@ body
           h2 SEE THE LYRICS
           p.feature-description Understand the song by reading the lyrics in 3 different ways: Korean, alphabetic pronunciation, and English translation.
         .app-web-links
-          img.google-play-button(src="img/google_play.png", alt="android phone")
+          a(href="https://play.google.com/store/apps/details?id=com.kpopcandy", target="_blank")
+            img.google-play-button(src="img/google_play.png", alt="android phone")
           img.web-app-button(src="img/web_app.png", alt="web app")
   .footer.text-center
     p © Copyright 2014 Kpop Candy created by Recomio, Inc.
